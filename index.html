@@ -1,0 +1,1035 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Анастасия Ильина — врач-эндокринолог</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Onest:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="preloading">
+
+  <!-- CUSTOM CURSOR -->
+  <div id="cursor-dot"></div>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">Доктор Ильина</div>
+      <div class="preloader-sub">врач-эндокринолог</div>
+      <div class="preloader-bar"></div>
+    </div>
+  </div>
+
+  <!-- SITE-WIDE BACKGROUND VIDEO -->
+  <video class="site-bg-video" autoplay muted loop playsinline>
+    <source src="webp/0511(2).webm" type="video/webm">
+  </video>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-top-row">
+      <div class="nav-name">Доктор Ильина</div>
+      <button class="nav-burger" id="navBurger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <hr />
+    <div class="nav-links" id="navLinks">
+      <a href="#hero" class="nav-close-link">Главная</a>
+      <a href="#for-whom" class="nav-close-link">Для кого</a>
+      <a href="#results" class="nav-close-link">Результаты</a>
+      <a href="#services" class="nav-close-link">Услуги</a>
+      <a href="#faq" class="nav-close-link">Вопросы и ответы</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source media="(max-width: 768px)" src="webp/0511 (1).webm" type="video/webm">
+      <source src="webp/ea_f_f_f_d_bc_e_bc_mp_ (1).webm" type="video/webm">
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-title">
+        <span class="normal">За </span><span class="italic">60 минут</span><span class="normal"> разработаем<br/>ваш личный медицинский<br/>план по снижению веса</span>
+      </div>
+      <a href="https://dikidi.ru/1749503" class="btn-outline">Записаться на консультацию</a>
+    </div>
+  </section>
+
+  <!-- ABOUT DOCTOR -->
+  <section class="section section-center" id="about">
+    <div class="about-header">
+      <div class="h-mix">
+        <span class="geist">Я — врач-эндокринолог </span><span class="garamond">Анастасия</span>
+      </div>
+      <p class="about-sub">Моя задача — стать вашим партнёром в восстановлении здоровья и достижении комфортного веса.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-img"> <img src="webp/image 80.webp" alt=""></div>
+      <div class="feature-card">
+        <div class="feat-title">Доказательно</div>
+        <div class="feat-desc">Опираюсь на науку, а не на жёсткие запреты</div>
+      </div>
+      <div class="about-img"> <img src="webp/image 45.webp" alt=""></div>
+      <div class="feature-card">
+        <div class="feat-title">Результативно</div>
+        <div class="feat-desc">Специализируюсь на сложных случаях, когда «вес стоит» или возвращается</div>
+      </div>
+      <div class="about-img"><img src="webp/2e0d1ede1c21a8fdc73ead3ae7c3b5f4_d48b0d20-49ce-4a05-9fb2-078122708e02.webp" alt=""></div>
+      <div class="feature-card">
+        <div class="feat-title">Бережно</div>
+        <div class="feat-desc">Учитываю психологию пищевого поведения и опыт работы с РПП</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOR WHOM -->
+  <section class="section" id="for-whom">
+    <div class="section-title">
+      <span class="title-normal">Для </span><span class="title-italic">кого</span><span class="title-normal"> я?</span>
+    </div>
+    <div class="cards-grid">
+      <div class="whom-card" onclick="toggleWhomCard(this)">
+        <img class="whom-card-img" src="webp/image 46.webp" alt="Вес стоит на месте">
+        <div class="whom-card-bottom">
+          <div class="whom-card-title">Если вес стоит на <span class="card-italic">месте</span></div>
+          <svg class="chevron-icon" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="whom-card-desc">Вы перепробовали все, но цифры на весах не меняются или возвращаются</div>
+      </div>
+      <div class="whom-card" onclick="toggleWhomCard(this)">
+        <img class="whom-card-img" src="webp/image 46-1.webp" alt="Еда вызывает тревогу">
+        <div class="whom-card-bottom">
+          <div class="whom-card-title">Если еда вызывает <span class="card-italic">тревогу</span></div>
+          <svg class="chevron-icon" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="whom-card-desc">У вас есть особенности пищевого поведения (РПП) и вы устали от чувства вины</div>
+      </div>
+      <div class="whom-card" onclick="toggleWhomCard(this)">
+        <img class="whom-card-img" src="webp/image 46-2.webp" alt="Сопутствующие диагнозы">
+        <div class="whom-card-bottom">
+          <div class="whom-card-title">Если есть сопутствующие <span class="card-italic">диагнозы</span></div>
+          <svg class="chevron-icon" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="whom-card-desc">Сахарный диабет 2 типа, нарушения работы щитовидной железы</div>
+      </div>
+      <div class="whom-card" onclick="toggleWhomCard(this)">
+        <img class="whom-card-img" src="webp/image 46-3.webp" alt="Нужен план">
+        <div class="whom-card-bottom">
+          <div class="whom-card-title">Если нужен <span class="card-italic">план</span></div>
+          <svg class="chevron-icon" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="whom-card-desc">Вы ищете системную стратегию здоровья, которую реально поддерживать всю жизнь</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE IMAGE -->
+  <div class="quote-block">
+    <div class="quote-wrap">
+      <div class="quote-img-wrap">
+        <img class="quote-img" src="webp/image 71.webp" alt="Цитата">
+      </div>
+      <span class="quote-deco">❝</span>
+      <p class="quote-text">Снижение веса — это работа с привычками и психологическим комфортом</p>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="edu-title">Образование</div>
+    <div class="edu-wrap">
+      <img class="edu-photo" src="webp/IMG_8077 1.webp" alt="Фото">
+      <div class="edu-card">
+        <div class="edu-row">
+          <svg class="edu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3L2 8l10 5 10-5-10-5zM2 13l10 5 10-5M2 18l10 5 10-5"/></svg>
+          <div class="edu-row-onlytext">
+            <div class="edu-row-title">Высшее образование</div>
+            <div class="edu-row-text">Первый Московский государственный медицинский университет им. И.М. Сеченова<br/>Лечебное дело, квалификация «врач-лечебник» (2020)</div>
+          </div>
+        </div>
+        <div class="edu-row">
+          <svg class="edu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h20v14H2zM8 21h8M12 17v4"/></svg>
+          <div class="edu-row-onlytext">
+            <div class="edu-row-title">Ординатура</div>
+            <div class="edu-row-text">ГБУЗ МО МОНИКИ им. М.Ф. Владимирского (2023)</div>
+          </div>
+        </div>
+        <div class="edu-row">
+          <svg class="edu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 0 6.5 7H20v13H6.5A2.5 2.5 0 0 1 4 17.5v-13z"/></svg>
+          <div class="edu-row-onlytext">
+            <div class="edu-row-title">Ожирение 2.0</div>
+            <div class="edu-row-text">Психологические инструменты в лечении ожирения: от мотивации до работы с пищевым поведением (2026)</div>
+          </div>
+        </div>
+        <div class="edu-row">
+          <svg class="edu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18M3 9h6M3 15h6"/></svg>
+          <div class="edu-row-onlytext">
+            <div class="edu-row-title">Остеопороз</div>
+            <div class="edu-row-text">Алгоритмы клинического решения</div>
+          </div>
+        </div>
+        <div class="edu-row">
+          <svg class="edu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2M9 5a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2M9 5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2"/></svg>
+          <div>
+            <div class="edu-row-title">Нутрициолог</div>
+            <div class="edu-row-text">Научный подход в Body Coach</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALIZATION -->
+  <section class="section" id="specialization">
+    <div class="spec-title">Специализация</div>
+    <img class="spec-photo-mobile" src="webp/928b4803433acf54dc7f294aa4a808a3_0566cb7a-c044-4dad-b1af-9b88146c66b0.webp" alt="Специализация">
+    <div class="spec-grid">
+      <div class="spec-item">
+        <img class="spec-icon" src="webp/icon.svg" alt="Углеводный обмен">
+        <div class="spec-item-title">Углеводный обмен</div>
+        <div class="spec-item-text">Ведение пациентов с сахарным диабетом и преддиабетом</div>
+      </div>
+      <div class="spec-item">
+        <img class="spec-icon" src="webp/icon-1.svg" alt="Здоровье костей">
+        
+        <div class="spec-item-title">Здоровье костей</div>
+        <div class="spec-item-text">Профилактика и лечение остеопороза</div>
+      </div>
+      <div class="spec-item">
+        <img class="spec-icon" src="webp/icon-2.svg" alt="Управление весом">
+        <div class="spec-item-title">Управление весом</div>
+        <div class="spec-item-text">Коррекция питания + современная медикаментозная поддержка (современные препараты агонистов ГПП-1 и другие)</div>
+      </div>
+      <div class="spec-item">
+        <img class="spec-icon" src="webp/icon-3.svg" alt="Щитовидная железа">
+        <div class="spec-item-title">Щитовидная железа</div>
+        <div class="spec-item-text">Диагностика и лечение гипотиреоза, узловых образований, тиреоидитов и других патологий</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="section" id="results">
+    <div class="results-header">
+      <div class="results-title"><span class="title-italic">Результаты</span> пациентов</div>
+      <div class="results-sub">Также вы можете ознакомиться с отзывами на сайте <a href="https://prodoctorov.ru/moskva/vrach/1050427-ilina/">«ПроДокторов»</a></div>
+    </div>
+    <div class="result-card" id="result-card">
+      <div class="photos-wrap">
+        <div class="photo-item">
+          <img class="photo-placeholder" src="webp/Group 1.webp" alt="Placeholder">
+          <div class="photo-labels">
+            <span class="photo-label" id="label-left">До</span>
+            <span class="photo-label">113 кг</span>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img class="photo-placeholder" src="webp/Group 3.webp" alt="Placeholder">
+          <div class="photo-labels">
+            <span class="photo-label">После</span>
+            <span class="photo-label">63 кг</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collapsed view -->
+      <div class="review-text-wrap" id="review-collapsed">
+        <div class="review-text-wrap-text">
+          <div>
+            <div class="review-section-title">Что было до лечения</div>
+            <p class="review-body">Изначально попала к ней на прием по рекомендации гинеколога в 2024 году. В ходе первого приема Анастасия Витальевна предложила мне рассмотреть вопрос снижения лишнего веса (на тот момент рост мой был 158 см, вес 113 кг).</p>
+          </div>
+          <div>
+            <div class="review-section-title">Процесс терапии</div>
+            <p class="review-body">Подход Анастасии Витальевны был очень грамотный и без лишних назначений: сначала мы наладили питание по методу гарвардской тарелки (24/7 была с ней на связи, в том числе скидывала свой дневник питания), без жестких диет и стресса для организма. Все анализы и исследования назначались только по необходимости, никаких лишних трат. Позже подключили терапию (уколы Семавика), и все это время Анастасия Витальевна внимательно сопровождала, корректировала лечение (дозировку) и поддерживала.</p>
+          </div>
+        </div>
+        
+        <div class="read-more" onclick="expandResult()">Читать далее →</div>
+      </div>
+
+      <!-- Expanded view -->
+      <div class="review-text-wrap" id="review-expanded" style="display:none">
+        <div class="review-text-wrap-text">
+          <div>
+            <div class="review-section-title">Результат</div>
+            <p class="review-body">Мой результат на 2026 год — минус 50 кг (с 113 до 63)! Но самое главное не только вес, а общее самочувствие, лёгкость и понимание, как теперь правильно питаться и поддерживать результат.
+              Очень благодарна за профессионализм, внимательное отношение и действительно эффективный подход.
+              Рекомендую Анастасию Витальевну как грамотного врача-эндокринолога от всей души!
+            </p>
+          </div>
+        </div>
+        <div class="read-more back-link" onclick="collapseResult()">← Назад</div>
+      </div>
+    </div>
+
+    <div class="nav-btns">
+      <div class="nav-btn-prev">
+        <svg width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M10 4L5 9.5L10 15M5 9.5H14" stroke="#F7F5EF" stroke-width="1.5"/></svg>
+      </div>
+      <div class="nav-btn-next">
+        <span>Следующий пациент</span>
+        <svg width="19" height="19" viewBox="0 0 19 19" fill="none"><path d="M9 4L14 9.5L9 15M14 9.5H5" stroke="#F7F5EF" stroke-width="1.5"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section" id="reviews">
+    <div class="reviews-wrap">
+      <div class="reviews-left">
+        <div class="reviews-big-title">
+          
+          <span class="reviews-title-bold"><span class="reviews-title-italic">Отзывы</span> моих пациентов</span>
+        </div>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div><div class="review-name">Татьяна</div><div class="review-date">06 апреля 2026</div></div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-service">Повторная консультация</div>
+          <div class="review-doctor">Ильина Анастасия</div>
+          <div class="review-text">Очень грамотный и внимательный специалист, объяснила все нюансы и возможные побочки. Вопросов после консультации не осталось никаких</div>
+          <div class="review-card-footer">
+            <span class="review-comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 0</span>
+            <button class="review-want-btn">Хочу так же</button>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div><div class="review-name">Магомедова Зоя</div><div class="review-date">03 февраля 2025</div></div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-service">Персональная консультация (Если вы в первый раз)</div>
+          <div class="review-doctor">Ильина Анастасия</div>
+          <div class="review-text">Замечательный врач, все разложил по полочкам, грамотно ответил на все вопросы, теперь буду наблюдаться только у этого врача, абсолютно располагающее отношение, консультация проходила в онлайн формате, так как из другого города, все прошло отлично.</div>
+          <div class="review-card-footer">
+            <span class="review-comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 0</span>
+            <button class="review-want-btn">Хочу так же</button>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div><div class="review-name">Дрожжина Алёна</div><div class="review-date">13 февраля 2026</div></div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-service">Персональная консультация (Если вы в первый раз)</div>
+          <div class="review-doctor">Ильина Анастасия</div>
+          <div class="review-text">Очень понравился врач и её подход к снижению веса</div>
+          <div class="review-card-footer">
+            <span class="review-comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 0</span>
+            <button class="review-want-btn">Хочу так же</button>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div><div class="review-name">Зайцева Анна</div><div class="review-date">14 июля 2025</div></div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-service">Персональная консультация (Если вы в первый раз)</div>
+          <div class="review-doctor">Ильина Анастасия</div>
+          <div class="review-text">Великолепный доктор ❤️ Все подробно расспросила, все нюансы обсудили! Рекомендую!</div>
+          <div class="review-card-footer">
+            <span class="review-comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 0</span>
+            <button class="review-want-btn">Хочу так же</button>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div><div class="review-name">Аноним</div><div class="review-date">13 марта 2025</div></div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-service">Персональная консультация (Если вы в первый раз)</div>
+          <div class="review-doctor">Ильина Анастасия</div>
+          <div class="review-text">Очень пунктуальный и грамотный врач, профессионал высокого уровня! Оставила только положительные впечатления 💅</div>
+          <div class="review-card-footer">
+            <span class="review-comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 0</span>
+            <button class="review-want-btn">Хочу так же</button>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div><div class="review-name">Светлана Демчук</div><div class="review-date">09 июня 2025</div></div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-service">Персональная консультация (Если вы в первый раз)</div>
+          <div class="review-doctor">Ильина Анастасия</div>
+          <div class="review-text">Пришла по рекомендации. Анастасия очень приятный и тактичный, располагающий к себе специалист.</div>
+          <div class="review-card-footer">
+            <span class="review-comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 0</span>
+            <button class="review-want-btn">Хочу так же</button>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div><div class="review-name">Зайцева Анна</div><div class="review-date">12 февраля 2026</div></div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-service">Повторная консультация</div>
+          <div class="review-doctor">Ильина Анастасия</div>
+          <div class="review-text">Самый лучший Доктор 🦋 ❤️</div>
+          <div class="review-card-footer">
+            <span class="review-comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 0</span>
+            <button class="review-want-btn">Хочу так же</button>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card-top">
+            <div><div class="review-name">Аноним</div><div class="review-date">16 октября 2025</div></div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <div class="review-service">Повторная консультация</div>
+          <div class="review-doctor">Ильина Анастасия</div>
+          <div class="review-text">Супер врач 💅</div>
+          <div class="review-card-footer">
+            <span class="review-comments"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> 0</span>
+            <button class="review-want-btn">Хочу так же</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="services-title">Услуги</div>
+
+    <!-- Weight loss -->
+    <div class="service-category">
+      <div class="service-cat-title">Работа с лишним весом и <span class="card-italic">ожирением</span></div>
+      <div class="service-cat-desc">Этот формат для вас, если вес «стоит» или возвращается, есть сопутствующие заболевания (диабет 2 типа, НАЖБП) или вы хотите рассмотреть медикаментозную поддержку.</div>
+      <div class="service-cards">
+        <div class="service-card">
+
+          <div class="svc-tag-wrap">
+
+            <div class="svc-tag">Первичная консультация</div>
+
+            <div class="svc-title-wrap">
+              <div class="svc-title">Снижение веса</div>
+              <div class="svc-price-row">
+                <span class="svc-badge">6 500 ₽</span>
+                <span class="svc-badge">60 мин</span>
+              </div>
+            </div>
+
+            <hr class="svc-divider"/>
+
+          </div>
+          
+          
+
+          <div class="svc-text-wrap">
+
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Процесс</div>
+              <div class="svc-section-text">Подробно разбираем динамику веса, питание, образ жизни и ваш предыдущий опыт. Изучаем факторы, мешающие результату.</div>
+            </div>
+
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Медицинский подход</div>
+              <div class="svc-section-text">Обсуждаем доступные методы, включая медикаментозную терапию (современные препараты агонистов ГПП-1 и другие) при наличии показаний.</div>
+            </div>
+
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Результат</div>
+              <div class="svc-section-text">Вы получаете чёткую тактику ведения и персональный список необходимых анализов (заранее сдавать ничего не нужно).</div>
+            </div>
+
+            <a href="https://dikidi.ru/1749503" class="btn-accent">Записаться</a>
+
+          </div>
+
+        </div>
+
+        <div class="service-card dark-bg1">
+          <div class="big-text">Верни себе <span class="reviews-title-italic">контроль</span> над телом</div>
+        </div>
+        <div class="service-card">
+          <div class="svc-tag-wrap">
+            <div class="svc-tag">Повторная консультация</div>
+            <div class="svc-title-wrap">
+              <div class="svc-title">Разбор обследований</div>
+              <div class="svc-price-row">
+                <span class="svc-badge">5 000 ₽</span>
+                <span class="svc-badge">45 мин</span>
+              </div>
+            </div>
+            <hr class="svc-divider"/>
+          </div>
+          <div class="svc-text-wrap">
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Процесс</div>
+              <div class="svc-section-text">Анализируем результаты анализов, уточняем диагноз и формируем окончательную тактику.</div>
+            </div>
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Результат</div>
+              <div class="svc-section-text">Подбор терапии, конкретные рекомендации по питанию и образу жизни.</div>
+            </div>
+            <a href="https://dikidi.ru/1749503" class="btn-accent">Записаться</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="svc-tag-wrap">
+            <div class="svc-tag">Динамическое наблюдение</div>
+            <div class="svc-title-wrap">
+              <div class="svc-title">Последующие встречи</div>
+              <div class="svc-price-row">
+                <span class="svc-badge">3 000 ₽</span>
+                <span class="svc-badge">30 мин</span>
+              </div>
+            </div>
+            <hr class="svc-divider"/>
+          </div>
+          <div class="svc-text-wrap">
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Процесс</div>
+              <div class="svc-section-text">Оцениваем прогресс, разбираем ваши дневники питания и самочувствия, корректируем дозировки препаратов и тактику.</div>
+            </div>
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Результат</div>
+              <div class="svc-section-text">Главная цель — дать вам полную ясность и безопасность в лечении.</div>
+            </div>
+            <a href="https://dikidi.ru/1749503" class="btn-accent">Записаться</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- General endocrinology -->
+    <div class="service-category">
+      <div class="service-cat-title">Общая <span class="card-italic">эндокринология</span></div>
+      <div class="service-cat-desc">Второе мнение, диагностика и ведение заболеваний щитовидной железы, надпочечников, остеопороза и подготовка к беременности.</div>
+      <div class="service-cards">
+        <div class="service-card">
+          <div class="svc-tag-wrap">
+            <div class="svc-tag">Первичная консультация</div>
+            <div class="svc-title-wrap">
+              <div class="svc-title">Общие вопросы</div>
+              <div class="svc-price-row">
+                <span class="svc-badge">5 000 ₽</span>
+                <span class="svc-badge">45 мин</span>
+              </div>
+            </div>
+            <hr class="svc-divider"/>
+          </div>
+          <div class="svc-text-wrap">
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Для кого</div>
+              <div class="svc-section-text">Сахарный диабет, патологии щитовидной железы, остеопороз и другие нарушения.</div>
+            </div>
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Процесс</div>
+              <div class="svc-section-text">Сбор анамнеза, разбор имеющихся заключений, оценка клинической ситуации и рекомендации по диагностике.</div>
+            </div>
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Результат</div>
+              <div class="svc-section-text">Понимание диагноза и чёткий план дальнейших действий.</div>
+            </div>
+            <a href="https://dikidi.ru/1749503" class="btn-accent">Записаться</a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="svc-tag-wrap">
+            <div class="svc-tag">Повторная консультация</div>
+            <div class="svc-title-wrap">
+              <div class="svc-title">Разбор обследований</div>
+              <div class="svc-price-row">
+                <span class="svc-badge">3 000 ₽</span>
+                <span class="svc-badge">30 мин</span>
+              </div>
+            </div>
+            <hr class="svc-divider"/>
+          </div>
+          <div class="svc-text-wrap">
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Для кого</div>
+              <div class="svc-section-text">Оценка динамики лечения или разбор результатов назначенных обследований.</div>
+            </div>
+            <a href="https://dikidi.ru/1749503" class="btn-accent">Записаться</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Premium -->
+    <div class="service-category">
+      <div class="service-cat-title"><span class="card-italic">Премиальное</span>  сопровождение</div>
+      <div class="service-cat-desc">Максимальный фокус на результате и долгосрочной стратегии.</div>
+      <div class="service-cards">
+        <div class="service-card">
+          <div class="svc-tag-wrap">
+            <div class="svc-tag">3 месяца</div>
+            <div class="svc-title-wrap">
+              <div class="svc-title">Комплексное ведение</div>
+              <div class="svc-price-row">
+                <span class="svc-badge">45 000 ₽</span>
+              </div>
+            </div>
+            <hr class="svc-divider"/>
+          </div>
+          <div class="svc-text-wrap">
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">5 полноценных онлайн-встреч</div>
+              <div class="svc-section-text">Первичная (60 мин), повторная (45 мин) и 3 консультации по 30 мин для контроля динамики.</div>
+            </div>
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Поддержка в чате</div>
+              <div class="svc-section-text">Ответы на ваши вопросы в течение 24 часов в рабочие дни.</div>
+            </div>
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Контроль питания</div>
+              <div class="svc-section-text">Еженедельный разбор ваших дневников, замеров и самочувствия.</div>
+            </div>
+            <div class="svc-section-text-wrap">
+              <div class="svc-section-label">Медицинский надзор</div>
+              <div class="svc-section-text">Поэтапная корректировка терапии и помощь в интерпретации анализов на протяжении всего срока.</div>
+            </div>
+            <a href="https://dikidi.ru/1749503" class="btn-accent">Записаться</a>
+          </div>
+        </div>
+        <div class="service-card dark-bg2">
+          <div class="big-text">Начни <span class="reviews-title-italic">наслаждаться</span> жизнью</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="faq-title">Вопросы-ответы</div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-question">Нужны ли анализы к первой встрече?</span>
+          <svg class="faq-arrow" width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="faq-answer">
+          <p>Чаще всего нет. Для первой консультации обычно достаточно разговора и сбора анамнеза.</p>
+          <p>Если у вас уже есть анализы, их можно заранее отправить в чат после записи.</p>
+          <p>Если хочется прийти с базовыми обследованиями, доктор направит минимальный перечень анализов после записи.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-question">Вы назначаете лекарства для похудения?</span>
+          <svg class="faq-arrow" width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="faq-answer">
+          <p>Да, если для этого есть медицинские показания и это безопасно для вас.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-question">Как попасть на консультацию?</span>
+          <svg class="faq-arrow" width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="faq-answer">
+          <p>Запись полностью автоматизирована через систему DIKIDI. Вы можете самостоятельно выбрать удобное время, увидеть актуальный прайс и описание всех услуг прямо в календаре записи.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-question">Вы работаете только с весом или с гормонами тоже?</span>
+          <svg class="faq-arrow" width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="faq-answer">
+          <p>Моя специализация — комплексная эндокринология. Мы работаем с лишним весом через коррекцию гормональных нарушений и дефицитов, учитывая сопутствующие заболевания.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-header">
+          <span class="faq-question">Помогаете ли вы при расстройствах пищевого поведения (РПП)?</span>
+          <svg class="faq-arrow" width="20" height="10" viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.72281 10C9.34508 10 8.9709 9.92573 8.62193 9.78133C8.27295 9.63692 7.95548 9.4253 7.6884 9.15847L0.306337 1.78366C-0.102103 1.37564 -0.102122 0.71387 0.306337 0.30587C0.714754 -0.101958 1.3766 -0.101955 1.78501 0.30587L9.16778 7.68069C9.24062 7.75346 9.32752 7.8113 9.4227 7.85069C9.51783 7.89003 9.61984 7.91064 9.72281 7.91064C9.82577 7.91062 9.9278 7.89005 10.0229 7.85069C10.118 7.8113 10.2043 7.75342 10.2771 7.68069L17.6606 0.306574C18.0691 -0.101427 18.7308 -0.101445 19.1393 0.306574C19.5477 0.714595 19.5477 1.37566 19.1393 1.78365L11.7565 9.15847L11.6541 9.25582C11.4098 9.47702 11.129 9.65497 10.8237 9.78133C10.4748 9.92571 10.1005 9.99998 9.72281 10Z" fill="#171B18"/></svg>
+        </div>
+        <div class="faq-answer">
+          <p>Помогаю вовремя распознать проблему и при необходимости рекомендую профильных специалистов для более глубокой работы.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="cta">
+
+    <div class="cta-title-wrap">
+      <h2 class="cta-title">Сделайте <span class="reviews-title-italic">первый шаг</span> к здоровому весу</h2>
+      <p class="cta-sub">Выберите удобный для вас формат взаимодействия. Я помогу разобраться в причинах и выстроить чёткий план действий.</p>
+    </div>
+
+    <div class="cta-actions">
+      <div class="cta-block">
+        <p class="cta-hint">Выберите удобное время записи через Dikidi от 30 до 60 минут.</p>
+        <a href="https://dikidi.ru/1749503" class="btn-dark">Записаться на консультацию</a>
+      </div>
+      <div class="cta-block">
+        <p class="cta-hint">Если вы не знаете, какой формат вам подходит, напишите мне в мессенджер. Я сориентирую вас по услугам.</p>
+        <a href="https://t.me/anastasya4444" class="btn-accent">Написать в Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-left">
+      <div class="footer-name">Анастасия Ильина</div>
+      <div class="footer-socials">
+        <div class="social-icon">
+          <a href="https://t.me/anastasya4444" target="_blank">
+            <img src="webp/tg.svg" alt="Telegram">
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href="https://wa.me/79918745734" target="_blank">
+            <img src="webp/wa.svg" alt="WhatsApp">
+          </a>
+        </div>
+        <div class="social-icon">
+          <a href="https://max.ru/chat/79918745734" target="_blank">
+            <img src="webp/max.svg" alt="VK">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <div class="footer-col-title">Контакты</div>
+
+        <div class="links-footer">
+
+          <a href="tel:+79918745734">+7 991 874-57-34</a>
+          <a href="mailto:doctor.ilina@list.ru">doctor.ilina@list.ru</a>
+
+        </div>
+
+      </div>
+      <div class="footer-col">
+        <div class="footer-col-title">Документы</div>
+
+        <div class="links-footer">
+
+          <a href="#" class="footer-col-title">Политика конфиденциальности</a>
+          <a href="#" class="footer-col-title">Согласие на обработку персональных данных</a>
+          <a href="#" class="footer-col-title">Уведомление о Cookie</a>
+          <a href="#" class="footer-col-title">Пользовательское соглашение</a>
+          <a href="#" class="footer-col-title">Реквизиты компании</a>
+
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    /* ── Карточки "Для кого" ── */
+    function toggleWhomCard(card) {
+      card.classList.toggle('open');
+    }
+
+    /* ── Результаты пациентов ── */
+    function expandResult() {
+      document.getElementById('review-collapsed').style.display = 'none';
+      document.getElementById('review-expanded').style.display = 'flex';
+      document.getElementById('label-left').textContent = 'До';
+    }
+    function collapseResult() {
+      document.getElementById('review-expanded').style.display = 'none';
+      document.getElementById('review-collapsed').style.display = 'flex';
+      document.getElementById('label-left').textContent = 'До';
+    }
+
+    /* ── FAQ ── */
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.querySelector('.faq-header').addEventListener('click', () => {
+        item.classList.toggle('open');
+      });
+    });
+
+    /* ── Сброс позиции прокрутки при перезагрузке ── */
+    if (history.scrollRestoration) history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+
+    /* ── Навигация: прозрачная на герое, обычная при скролле ── */
+    const nav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+
+    /* ── Прелоадер ── */
+    (function() {
+      const preloader = document.getElementById('preloader');
+      const heroVid = document.querySelector('.hero-video');
+      let videoReady = false;
+      let minTimeReady = false;
+
+      function tryHide() {
+        if (!preloader || !videoReady || !minTimeReady) return;
+        preloader.classList.add('hide');
+        document.body.classList.remove('preloading');
+        preloader.addEventListener('transitionend', () => preloader.remove(), { once: true });
+      }
+
+      setTimeout(() => { minTimeReady = true; tryHide(); }, 2400);
+
+      if (heroVid) {
+        if (heroVid.readyState >= 3) {
+          videoReady = true;
+        } else {
+          heroVid.addEventListener('canplay', () => { videoReady = true; tryHide(); }, { once: true });
+        }
+        setTimeout(() => { videoReady = true; tryHide(); }, 6000);
+      } else {
+        videoReady = true;
+      }
+    })();
+
+    /* ── Гарантированное воспроизведение видео ── */
+    (function() {
+      const videos = document.querySelectorAll('video');
+      function ensurePlay(v) {
+        if (v.paused) {
+          v.play().catch(() => {});
+        }
+      }
+      videos.forEach(v => {
+        v.muted = true;
+        v.play().catch(() => {});
+        v.addEventListener('pause', () => { if (!document.hidden) v.play().catch(() => {}); });
+        v.addEventListener('ended', () => { v.currentTime = 0; v.play().catch(() => {}); });
+      });
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) videos.forEach(ensurePlay);
+      });
+      window.addEventListener('focus', () => videos.forEach(ensurePlay));
+    })();
+
+    /* ── Параллакс секции цитаты ── */
+    const quoteWrap = document.querySelector('.quote-wrap');
+    window.addEventListener('scroll', () => {
+      if (!quoteWrap) return;
+      const rect = quoteWrap.getBoundingClientRect();
+      const vh = window.innerHeight;
+      if (rect.bottom > 0 && rect.top < vh) {
+        const progress = (vh - rect.top) / (vh + rect.height);
+        quoteWrap.style.transform = `translateY(${(progress - 0.5) * -28}px)`;
+      }
+    }, { passive: true });
+
+    /* ── Ripple-эффект на кнопках ── */
+    function addRipple(e) {
+      const btn = e.currentTarget;
+      const d = Math.max(btn.clientWidth, btn.clientHeight);
+      const rect = btn.getBoundingClientRect();
+      const span = document.createElement('span');
+      span.classList.add('ripple');
+      span.style.cssText = `width:${d}px;height:${d}px;left:${e.clientX - rect.left - d / 2}px;top:${e.clientY - rect.top - d / 2}px;`;
+      btn.querySelector('.ripple')?.remove();
+      btn.appendChild(span);
+    }
+    document.querySelectorAll('.btn-outline, .btn-accent, .btn-dark').forEach(b => {
+      b.addEventListener('click', addRipple);
+    });
+
+    /* ── Cleanup hero animation после завершения (чтобы hover работал) ── */
+    const heroTitle = document.querySelector('.hero-title');
+    const heroBtn = document.querySelector('.hero-content .btn-outline');
+    [heroTitle, heroBtn].forEach(el => {
+      if (!el) return;
+      el.addEventListener('animationend', () => {
+        el.style.animation = 'none';
+        el.style.opacity = '1';
+        el.style.transform = '';
+      }, { once: true });
+    });
+
+    /* ── IntersectionObserver: анимации при скролле ── */
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(({ target, isIntersecting }) => {
+        if (!isIntersecting) return;
+        const delay = target._animDelay || 0;
+        setTimeout(() => {
+          target.classList.add('animated');
+          /* После завершения scroll-in анимации убираем классы чтобы hover работал */
+          if (target.classList.contains('will-animate')) {
+            setTimeout(() => {
+              target.style.opacity = '1';
+              target.style.transform = '';
+              target.classList.remove('will-animate', 'animated');
+            }, delay + 750);
+          }
+        }, delay);
+        io.unobserve(target);
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    function observe(selector, stagger, isClip) {
+      document.querySelectorAll(selector).forEach((el, i) => {
+        el.classList.add(isClip ? 'will-animate-clip' : 'will-animate');
+        el._animDelay = (stagger || 0) * i;
+        io.observe(el);
+      });
+    }
+
+    /* Одиночные элементы */
+    observe('.h-mix');
+    observe('.about-sub');
+    observe('.section-title');
+    observe('.edu-title');
+    observe('.edu-photo');
+    observe('.spec-title');
+    observe('.results-header');
+    observe('.result-card');
+    observe('.nav-btns');
+    observe('.reviews-big-title');
+    observe('.services-title');
+    observe('.service-cat-title');
+    observe('.service-cat-desc');
+    observe('.faq-title');
+    observe('.cta-title-wrap');
+
+    /* Секция цитаты — кастомная кинематографическая анимация */
+    if (quoteWrap) {
+      const quoteIO = new IntersectionObserver(([entry]) => {
+        if (!entry.isIntersecting) return;
+        quoteWrap.classList.add('quote-in');
+        quoteIO.unobserve(quoteWrap);
+      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+      quoteIO.observe(quoteWrap);
+    }
+
+    /* Группы с каскадным появлением */
+    observe('.about-grid > *', 80);
+    observe('.cards-grid > .whom-card', 100);
+    observe('.edu-row', 80);
+    observe('.spec-item', 100);
+    observe('.review-card', 60);
+    observe('.service-card', 80);
+    observe('.faq-item', 60);
+    observe('.cta-block', 120);
+  </script>
+
+  <!-- COOKIE BANNER -->
+  <div id="cookie-banner" style="display:none">
+    <p>Мы используем файлы cookie, чтобы сделать работу с сайтом удобнее. Оставаясь на сайте, вы соглашаетесь с нашей <a href="#">Политикой конфиденциальности</a>.</p>
+    <button class="btn-cookie" id="cookie-accept-btn">Согласен(-а)</button>
+  </div>
+
+  <script>
+    (function() {
+      if (localStorage.getItem('cookieAccepted')) return;
+      const banner = document.getElementById('cookie-banner');
+      const forWhomSection = document.getElementById('for-whom');
+      if (!forWhomSection) return;
+      const cookieIO = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            banner.style.display = 'block';
+            cookieIO.unobserve(forWhomSection);
+          }
+        });
+      }, { threshold: 0.1 });
+      cookieIO.observe(forWhomSection);
+      document.getElementById('cookie-accept-btn').addEventListener('click', function() {
+        localStorage.setItem('cookieAccepted', '1');
+        banner.style.display = 'none';
+      });
+    })();
+  </script>
+
+
+  <!-- CUSTOM CURSOR SCRIPT -->
+  <script>
+    (function () {
+      const dot = document.getElementById('cursor-dot');
+      if (!dot) return;
+      if (window.matchMedia('(pointer: coarse)').matches) return;
+
+      let mouseX = 0, mouseY = 0;
+      let curX = 0, curY = 0;
+
+      const LERP = 0.2; // меньше = больше запаздывание
+
+      // SVG сердечко (inline, масштабируется через width/height элемента)
+      const heartSVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="#fff"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.27 2 8.5 2 5.41 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.08C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.41 22 8.5c0 3.77-3.4 6.86-8.55 11.53L12 21.35z"/></svg>`;
+
+      document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      // Интерактивные элементы
+      const HOVER_SELECTOR = 'a, button, [role="button"], input, textarea, select, label, [onclick], .card, .service-card, .faq-item, .result-card';
+
+      function updateHover() {
+        const el = document.elementFromPoint(mouseX, mouseY);
+        const isHover = el && el.closest(HOVER_SELECTOR);
+        if (isHover) {
+          dot.classList.add('is-hover');
+          dot.innerHTML = heartSVG;
+        } else {
+          dot.classList.remove('is-hover');
+          dot.innerHTML = '';
+        }
+      }
+
+      let lastHoverCheck = 0;
+      function animate() {
+        curX += (mouseX - curX) * LERP;
+        curY += (mouseY - curY) * LERP;
+
+        dot.style.transform = `translate(calc(-50% + ${curX}px), calc(-50% + ${curY}px))`;
+
+        // Проверяем hover каждые ~3 кадра, чтобы не тормозить
+        const now = performance.now();
+        if (now - lastHoverCheck > 50) {
+          updateHover();
+          lastHoverCheck = now;
+        }
+
+        requestAnimationFrame(animate);
+      }
+
+      animate();
+    })();
+  </script>
+
+  <!-- MOBILE NAV BURGER -->
+  <script>
+    (function() {
+      const burger = document.getElementById('navBurger');
+      const nav = burger && burger.closest('nav');
+      if (!burger || !nav) return;
+
+      burger.addEventListener('click', function() {
+        burger.classList.toggle('open');
+        nav.classList.toggle('mobile-open');
+      });
+
+      document.querySelectorAll('.nav-close-link').forEach(function(link) {
+        link.addEventListener('click', function() {
+          burger.classList.remove('open');
+          nav.classList.remove('mobile-open');
+        });
+      });
+    })();
+  </script>
+
+</body>
+</html>
